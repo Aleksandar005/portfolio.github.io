@@ -1,0 +1,166 @@
+body, html {
+    margin: 0;
+}
+
+#hero {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+
+    width: 100%;
+    height: 100vh;
+    background-color: #6439FF;
+}
+
+#kontejner-ikonica1 {
+    display: flex;
+    justify-content: right;
+    margin-top: 50px;
+}
+
+#ikonica1 {
+    height: 100px;
+    padding-right: 50px;
+}
+
+h1 {
+    margin: 0;
+    margin-top: 30px;
+    text-align: center;
+    color: white;
+    font-size: 80px;
+    font-family: "Domine", serif;
+    font-optical-sizing: auto;
+    font-weight: 900;
+    font-style: normal;
+    
+}
+
+#slika-citat {
+    margin-top: 50px;
+    margin-bottom: 0px;
+}
+
+#ivica {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 155px;
+    height: 210px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 40px solid white;
+    border-radius: 20px;
+}
+
+#ja {
+    height: 200px;
+    border-radius: 20px;
+}
+
+#citat {
+    text-align: center;
+    color: white;
+    margin-bottom: 200px;
+    margin-top: 5px;
+    font-size: 20px;
+    
+    font-family: "Playpen Sans", cursive;
+    font-optical-sizing: auto;
+    font-weight: 400;
+}
+
+#kontejner-ikonica2 {
+    position: relative;
+    bottom: 200px;
+    margin-top: 0px;
+}
+
+#ikonica2 {
+    height: 100px;
+    position: absolute;
+    left: 50px;
+}
+
+p {
+    font-weight: 550;
+}
+
+#kontaktiraj-me {
+    background-color: #7CF5FF;
+    width: 100%;
+    height: 60vh;
+}
+
+#kontakt-naslov {
+    color: #6439FF;
+    text-align: center;
+    padding-top: 50px;
+    font-size: 46px;
+
+    font-family: "Domine", serif;
+    font-optical-sizing: auto;
+    font-weight: 900;
+    font-style: normal;
+}
+
+#kontakt-tekst {
+    text-align: center;
+    color: #6439FF;
+    width: 60%;
+    margin-top: 35px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 22px;
+}
+
+#dugmad {
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+    gap: 20px;
+}
+
+#email {
+    background-color: #00CCDD;
+    width: 140px;
+    font-weight: 650;
+}
+
+#email-icon {
+    padding-right: 5px;
+}
+
+#instagram {
+    background-color: #4F75FF;
+    width: 140px;
+    font-weight: 650;
+}
+
+#insta-icon {
+    padding-left: 5px;
+}
+
+#whatsapp {
+    background-color: #6439FF;
+    width: 140px;
+    font-weight: 650;
+}
+
+#whatsapp-icon {
+    padding-left: 5px;
+}
+
+@media  screen and (width <= 850px) {
+    #hero {
+        height: 120vh;
+    }
+    
+}
+
+@media  screen and (width > 850px) and (width < 1400px) {
+    #hero {
+        height: 110vh;
+    }
+    
+}
